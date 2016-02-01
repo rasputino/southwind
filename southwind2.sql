@@ -1,3 +1,6 @@
+-- Table suppliers script
+-- Original code: https://www3.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html
+
 DELETE FROM products;
 INSERT INTO products VALUES (2001, 'PEC', 'Pencil 3B', 500, 0.52),
                             (NULL, 'PEC', 'Pencil 4B', 200, 0.62),
