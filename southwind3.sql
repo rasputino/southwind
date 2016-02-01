@@ -1,3 +1,6 @@
+-- Table products_suppliers script
+-- Original code: https://www3.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html
+
 CREATE TABLE products_suppliers (
          productID   INT UNSIGNED  NOT NULL,
          supplierID  INT UNSIGNED  NOT NULL,
