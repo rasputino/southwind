@@ -21,5 +21,11 @@ INSERT INTO suppliers VALUE
           (503, 'QQ Corp', '88883333');
 ALTER TABLE products
        ADD COLUMN supplierID INT UNSIGNED NOT NULL;
+    
 UPDATE products SET supplierID = 501;
+
+ALTER TABLE products
+       ADD FOREIGN KEY (supplierID) REFERENCES suppliers (supplierID);
+
+
 UPDATE products SET supplierID = 502 WHERE productID  = 2004;
